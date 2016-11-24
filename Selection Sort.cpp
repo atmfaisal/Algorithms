@@ -27,9 +27,9 @@ void Selection_Sort(int arr[], int n)
                 int mnm = i;
                 for(int j=i+1; j<n; j++)
                 {
-                        if(arr[j]<arr[mnm]) mnm = j;
+                        if( arr[j] < arr[mnm] ) mnm = j;
                 }
-                swap(arr[i],arr[mnm]);
+                swap(arr[i], arr[mnm]);
         }
 }
 
